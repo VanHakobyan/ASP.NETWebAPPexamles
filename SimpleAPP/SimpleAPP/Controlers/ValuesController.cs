@@ -4,7 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-
+using SimpleAPP.Models;
 namespace SimpleAPP.Controlers
 {
     [RoutePrefix("api")]
@@ -21,6 +21,19 @@ namespace SimpleAPP.Controlers
                 "Տեղ տուր նստեմ"
             };
             return Ok(resulit);
+        }
+
+        [Route("values")]
+        [HttpPost]
+        public IHttpActionResult SendValues(Person model)
+        {
+            if (model==null)
+            {
+                return BadRequest();
+            }
+            model.Age++;
+            model.Name += "!";
+            return Ok(model);
         }
     }
 }
