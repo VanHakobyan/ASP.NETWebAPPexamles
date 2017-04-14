@@ -20,7 +20,7 @@ namespace SimpleAPP.Controlers
                 "Ախ ոտս",
                 "Տեղ տուր նստեմ"
             };
-            return Ok();
+            return Ok(resulit);
         }
     }
 }
