@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentNegotiation", "Conte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiSample", "WebApiSample\WebApiSample.csproj", "{D1DD8AA7-1974-4EAB-AF8D-032FC5AB940B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OData", "OData\OData.csproj", "{69D96822-7697-404C-9813-4045A9B0E67F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D1DD8AA7-1974-4EAB-AF8D-032FC5AB940B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1DD8AA7-1974-4EAB-AF8D-032FC5AB940B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1DD8AA7-1974-4EAB-AF8D-032FC5AB940B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69D96822-7697-404C-9813-4045A9B0E67F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D96822-7697-404C-9813-4045A9B0E67F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D96822-7697-404C-9813-4045A9B0E67F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D96822-7697-404C-9813-4045A9B0E67F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
