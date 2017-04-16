@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Routing", "Routing\Routing.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Routing2", "Routing2\Routing2.csproj", "{53ADDBA3-0F35-4709-AF23-6777059480B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentNegotiation", "ContentNegotiation\ContentNegotiation.csproj", "{B2257EF3-A950-453C-A298-3A60AC1D2E68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{53ADDBA3-0F35-4709-AF23-6777059480B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53ADDBA3-0F35-4709-AF23-6777059480B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53ADDBA3-0F35-4709-AF23-6777059480B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2257EF3-A950-453C-A298-3A60AC1D2E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2257EF3-A950-453C-A298-3A60AC1D2E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2257EF3-A950-453C-A298-3A60AC1D2E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2257EF3-A950-453C-A298-3A60AC1D2E68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
