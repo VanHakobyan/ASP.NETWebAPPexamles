@@ -26,7 +26,7 @@ namespace WebApiSample.Controllers
         //}
         public HttpResponseMessage Get(int id)
         {
-            if (id > fruit.Length)
+            if (id < fruit.Length)
             {
                 return Request.CreateResponse(HttpStatusCode.OK, fruit[id]);
             }
