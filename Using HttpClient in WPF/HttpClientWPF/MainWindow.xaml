@@ -1,0 +1,24 @@
+﻿<Window x:Class="HttpClientWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HttpClientWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525"  Loaded="Window_Loaded">
+    <Grid Margin="10,0,2,289">
+        <DataGrid HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="grdEmployee" />
+        <Label Content="Id" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="18,203,0,-67"/>
+        <Label Content="Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="18,245,0,-103"  />
+        <Label Content="Address" HorizontalAlignment="Left" VerticalAlignment="Top"  Margin="18,276,0,-136" />
+        <Label Content="Designation" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="18,314,0,-176"  />
+        <Button Content="Delete" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="342,203,0,-70" x:Name="btnDelete" Click="btnDelete_Click" />
+        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="125,203,0,-56" x:Name="txtId"  />
+        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="125,234,0,-92" x:Name="txtName"  />
+        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="125,279,0,-136" x:Name="txtAddress"  />
+        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="125,316,0,-176" x:Name="txtDesignation"  />
+        <Button Content="Search" HorizontalAlignment="Left" Width="75" x:Name="btnSearch" Click="btnSearch_Click" Margin="250,203,0,-173" Height="0" VerticalAlignment="Top"  />
+        <Button Content="Add New" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" x:Name="btnAdd" Click="btnAdd_Click" Margin="125,363,0,-219" Height="Auto"/>
+
+    </Grid>
+</Window>
